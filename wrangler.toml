@@ -1,0 +1,7 @@
+name = "mimi-guestbook"
+main = "src/worker.ts"
+compatibility_date = "2025-01-01"
+
+[vars]
+# Public CORS allowlist origin for browser clients (not a secret).
+ALLOWED_ORIGIN = "https://mimi.cauchy.top"

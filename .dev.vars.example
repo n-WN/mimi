@@ -1,0 +1,9 @@
+SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+# Optional: if set, Worker verifies JWT locally (otherwise Supabase enforces auth + RLS).
+SUPABASE_JWT_SECRET=
+# Optional: defaults to `${SUPABASE_URL}/auth/v1` (only used when SUPABASE_JWT_SECRET is set)
+SUPABASE_JWT_ISSUER=https://YOUR_PROJECT_REF.supabase.co/auth/v1
+
+# Optional: set to your frontend origin (recommended). Empty => "*".
+ALLOWED_ORIGIN=http://localhost:5173
