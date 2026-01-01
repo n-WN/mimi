@@ -7,6 +7,10 @@ Only admins can read or delete messages.
 The database stores ciphertext plus crypto metadata only.
 The server never sees plaintext.
 
+## Preview
+
+![Mimi preview](imgs/preview.png)
+
 ## Stack
 
 - Cloudflare Workers for the API and the static page
