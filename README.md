@@ -1,4 +1,4 @@
-# mimi
+# Mimi
 
 Encrypted treehole.
 
